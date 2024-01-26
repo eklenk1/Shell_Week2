@@ -67,11 +67,11 @@ Practice Exercise
 
 - `cp` - copies a file
     - `cp originalFile.txt newFile.txt`
-- `mv` - moves __or__ renames a file
+- `mv` - moves __or__ renames a file, Linux considers them the same thing
     - To change location, use paths: `mv myFile.txt ./folder/myFile.txt`
     - To change name, just use different names: `mv myFile.txt newName.txt`
 - `cat filename.txt` - view file contents - can be called on multiple files and will conCATenate their contents
-    - `cat file1.txt file2.txt file3.txt` will show all files in command line
+    - `cat file1.txt file2.txt file3.txt` will show all files in command line, just type them one at a time
     - `cat *.txt` shows all text in files with the file ending .txt
 - `ls *.txt` show all files that end in .txt
     - `ls ../*.txt` go up one directory then tell me the txt files there (still within the same directory)
